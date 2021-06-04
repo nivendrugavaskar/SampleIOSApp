@@ -5,7 +5,7 @@ jobs:
     runs-on: [macos-latest]
     env:
       XC_VERSION: ${{ '11.4' }}
-      XC_WORKSPACE: ${{ 'MyApp.xcworkspace' }}
+      XC_WORKSPACE: ${{ 'SampleIOSApp.xcodeproj' }}
       XC_SCHEME: ${{ 'MyApp' }}
     steps:
     - name: Select latest Xcode
